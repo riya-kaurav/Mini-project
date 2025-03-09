@@ -1,0 +1,79 @@
+ * {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+ }
+
+ body {
+    background-color: cornsilk
+ }
+  h1 {
+    background-color: darkslategray;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+
+  }
+
+ .choice:hover {
+    opacity: 0.2%;
+    cursor:pointer;
+    
+ }
+
+  .choice{
+    height: 100px;
+    width:100px;
+    text-align: center;
+    background-color: chartreuse;
+    line-height: 5rem;
+    
+
+  }
+
+  .choices{
+    display: inline-flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+
+  .scoreboard {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-size: 2rem;
+   gap:2rem;
+   margin-top:2rem;
+  }
+
+  .msg-container{
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    background-color: rgb(29, 66, 136);
+color: white;
+display:inline-block;
+padding: 1rem;
+border: 1rem;
+  }
+
+  #paper {
+    background-color:darkkhaki;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  #rock {
+    background-color: darkseagreen;
+    padding: 1rem;
+    font-size: 1rem;
+    
+  }
+  #scissors {
+    
+    padding: 1rem;
+    font-size: 1rem;
+    
+  }
